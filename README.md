@@ -29,3 +29,11 @@ It will respond with:
 ```
 {"response":"hello, bob!"}
 ```
+
+The rationale for this class is that we can put any logging, monitoring, testing, into the
+``FlaskWrap`` class (specifically, in the ``endpoint_partial`` function) and it will
+automatically be inherited by any services we create. This also allows people to create
+useful APIs without having to understand Flask or anything else relating to the mechanics
+of APIs. They only need to write a class that inherits fro ``FlaskWrap`` and then they can
+create as many endpoints as they like, simply by writing methods whose names start with
+the string ``endpoint_``. ``FlaskWrap`` will take care of the rest.
