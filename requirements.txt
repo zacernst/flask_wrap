@@ -2,6 +2,7 @@ appdirs==1.4.3
 attrs==19.3.0
 Click==7.0
 Flask==1.1.1
+sumologic==0.1.3
 gunicorn==20.0.4
 itsdangerous==1.1.0
 Jinja2==2.11.1
