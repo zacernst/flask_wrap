@@ -31,7 +31,7 @@ ijson==2.6.1
 imagesize==1.2.0
 invoke==1.4.1
 itsdangerous==1.1.0
-Jinja2==2.11.1
+Jinja2==2.11.3
 jinja2-time==0.2.0
 jmespath==0.9.4
 MarkupSafe==1.1.1
